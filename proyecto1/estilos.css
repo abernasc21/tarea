@@ -1,0 +1,48 @@
+body{
+    background-image: url(imgs/fondo2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 25px;
+}
+header{
+    background-color: white;
+    border: 50px outset rgb(13, 100, 141);
+    padding: 3%;
+    text-align: center;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+h1{
+    font-size: 40;
+    background-color: rgb(26, 149, 206);
+    padding:0.5%;
+}
+img{
+    width: 50%;
+    height: 60%;
+}
+section{
+    background-color: rgba(13, 100, 141, 0.767);
+}
+ul{
+    font-size: 30px;
+    color:white;
+}
+nav{
+    background-color: rgba(38, 202, 202,90%);
+}
+div{
+    background-color: white;
+    padding: 0.5%;
+}
+h1{
+    color: black;
+}
+a:link{
+    color: rgb(13, 100, 141);
+}
+
+
+a:visited{
+    color:rgb(196, 50, 196);
+}
