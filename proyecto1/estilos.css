@@ -13,20 +13,23 @@ header{
     font-family:sans-serif;
 }
 h1{
+    
     font-size: 40;
     background-color: rgb(26, 149, 206);
     padding:0.5%;
+    text-align: center;
 }
+p{
+    text-align: justify;
+    font-size: 30px  ;
+}
+
 section{
     background-color: rgba(13, 100, 141, 0.767);
 }
 ul{
     font-size: 30px;
     color:white;
-}
-img{
-    width: 50%;
-    height: 60%;
 }
 nav{
     background-color: rgba(38, 202, 202,90%);
@@ -41,8 +44,29 @@ h1{
 a:link{
     color: rgb(13, 100, 141);
 }
+a:hover{
+    background-color: white;
+    color:rgb(232, 17, 92);
 
+
+}
 
 a:visited{
     color:rgb(196, 50, 196);
 }
+aside{
+float: right;
+width: 10% 20% 10%;
+}
+
+/*
+aside{
+    float:inline-start;
+    
+    
+
+
+    border: 5px outset black;
+    padding: 1%;
+}
+*/
