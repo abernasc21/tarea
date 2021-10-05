@@ -2,31 +2,40 @@ body{
     background-image: url(imgs/fondo2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-    font-size: 25px;
+    font-family:monospace;
+    font-size: 20px;
+    line-height:0.8cm ;
+    padding-right: 60px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 header{
-    background-color: white;
-    border: 50px outset rgb(13, 100, 141);
-    padding: 3%;
+    background-color: #9fbde8;
+    color: white;
+    border: 15px outset rgb(13, 100, 141);
+    padding: 2%;
     text-align: center;
-    font-size: 50px;
-    font-family:'Times New Roman';
+    font-size:50px;
 }
 nav{
-    font-size: 40px;
+    color: white;
+    font-size: 20px;
 }
 h1{
     
-    font-size: 40;
+    font-size: 40px;
     background-color: rgb(26, 149, 206);
     padding:0.5%;
     text-align: center;
 }
 p{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: justify;
-    font-size: 30px  ;
 }
-
 section{
     background-color: rgba(13, 100, 141, 0.767);
 }
@@ -35,23 +44,21 @@ ul{
     color:white;
 }
 nav{
-    background-color: rgba(38, 202, 202,90%);
+    background-color: rgba(38, 202, 202,100);
 }
 div{
     background-color: white;
     padding: 0.5%;
 }
 h1{
-    color: black;
+    color: white;
 }
 a:link{
-    color: rgb(13, 100, 141);
+    color:blue;
 }
 a:hover{
     
     color:rgb(232, 17, 92);
-
-
 }
 
 a:visited{
@@ -67,8 +74,6 @@ aside{
     float:inline-start;
     
     
-
-
     border: 5px outset black;
     padding: 1%;
 }
